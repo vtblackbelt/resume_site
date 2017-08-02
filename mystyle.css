@@ -38,7 +38,7 @@ div.col-sm-9 div {
 /* Body */
 .main-content {
   position: relative;
-  background-color: #ff0;
+  /* background-color: #ff0; */
   padding-top: 100px;
   padding-bottom: 120px;
 }
