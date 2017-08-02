@@ -1,3 +1,21 @@
+#outer
+{
+
+}
+
+/* Header */
+#header
+ {
+position: fixed;
+height: 95px;
+background-image: url();
+background-repeat:no-repeat;
+background-position: bottom left;
+padding-left: 20px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
 body {
     background-color: lightblue;
 }
