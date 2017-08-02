@@ -3,17 +3,34 @@
 
 }
 
-/* Header */
-#header
- {
-position: fixed;
-height: 95px;
-background-image: url();
-background-repeat:no-repeat;
-background-position: bottom left;
-padding-left: 20px;
-padding-top: 15px;
-padding-bottom: 15px;
+/* Global Header */
+.global-header {
+  position: fixed;
+  background-color: #f00;
+  height: 100px;
+  width:100%;
+  background-image: url();
+  background-repeat:no-repeat;
+  background-position: bottom left;
+  padding-left: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+/* Body */
+.main-content {
+  background-color: #ff0;
+  padding-top: 100px;
+  padding-bottom: 120px;
+}
+
+/* Global Footer */
+.global-footer {
+  position: fixed;
+  bottom: 0;
+  background-color: #f0f;
+  height: 120px;
+  width:100%;
 }
 
 body {
