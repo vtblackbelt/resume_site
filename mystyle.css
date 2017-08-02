@@ -52,6 +52,26 @@ div.col-sm-9 div {
   width:100%;
 }
 
+@media (min-width: 30em) {
+
+    .global-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+    }
+
+    .main-content {
+        height: 100%;
+        margin-top: 5em; /* to offset header */
+    }
+
+    .global-footer {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+    }
+
+
 body {
     background-color: lightblue;
 }
