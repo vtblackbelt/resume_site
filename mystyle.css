@@ -17,7 +17,7 @@
     height: 100%;
     width: 100%;
     float: left;
-    height: 50cm;
+    min-height: 35cm;
     background-color: yellow;
     margin-top: 2cm; /* to offset header */
     margin-left: 2cm; 
