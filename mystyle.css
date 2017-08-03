@@ -1,10 +1,53 @@
-/* Left Nav Pills */
+
+.global-header {
+    width: 100%;
+    float: left;
+    min-height: 2cm;
+    background-color: maroon;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+}
+
+.main-content {
+    height: 100%;
+    width: 100%;
+    float: left;
+    height: 50cm;
+    background-color: yellow;
+    margin-top: 2cm; /* to offset header */
+    margin-left: 2cm; 
+}
+
+.section1 {
+    width: 100%;
+    float: left;
+    height: 5cm;
+    background-color: orange;
+}
+
+.global-footer {
+    width: 100%;
+    float: left;
+    min-height: 5cm;
+    background-color: lightblue;
+    bottom: 0;
+    left: 0;
+
+}
+
+
+ 
+ /* ================== */
+
+/* Left Nav Pills 
 ul.nav-pills {
           top: 120px;
           position: fixed;
       }
 
-/* Section Tables */
+/* Section Tables 
 div.col-sm-9 div {
           height: 250px;
           font-size: 28px;
@@ -21,55 +64,4 @@ div.col-sm-9 div {
         #section1, #section2, #section3, #section41, #section42, #section5, #section6  {
             margin-left: 150px;
         }
-      }
-
-.global-header {
-    width: 100%;
-    float: left;
-    min-height: 2cm;
-    background-color: red;
-}
-
-.main-content {
-    width: 100%;
-    float: left;
-    height: 50cm;
-    background-color: yellow;
-}
-
-.section1 {
-    width: 100%;
-    float: left;
-    height: 5cm;
-    background-color: orange;
-}
-
-.global-footer {
-    width: 100%;
-    float: left;
-    min-height: 5cm;
-    background-color: lightblue;
-}
-
-@media (min-width: 30em) {
-
-    .global-header {
-        position: fixed;
-        top: 0;
-        left: 0;
-    }
-
-    .main-content {
-        height: 100%;
-        width: 100%;
-        margin-top: 2cm; /* to offset header */
-        margin-left: 2cm; 
-    }
-
-    .global-footer {
-        position: fixed;
-        bottom: 0;
-        left: 0;
-    }
-
-} /* ================== */
+      }  */
