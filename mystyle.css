@@ -37,6 +37,13 @@ div.col-sm-9 div {
     background-color: yellow;
 }
 
+.section1 {
+    width: 100%
+    float: left;
+    height: 5cm;
+    background-color: orange;
+}
+
 .global-footer {
     width: 100%;
     float: left;
