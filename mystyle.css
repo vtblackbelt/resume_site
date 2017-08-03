@@ -31,7 +31,7 @@ div.col-sm-9 div {
 }
 
 .main-content {
-    width: 100%;
+    width: 85%;
     float: left;
     height: 50cm;
     background-color: yellow;
@@ -56,7 +56,7 @@ div.col-sm-9 div {
         height: 100%;
         width: 100%;
         margin-top: 2cm; /* to offset header */
-        margin-left: 5cm; 
+        margin-left: 15%; 
     }
 
     .global-footer {
