@@ -1,6 +1,6 @@
-.myname {
-        color: white;
-}
+ /* ================== */
+ /* = Global Classes = */
+ /* ================== */
 
 .global-header {
     width: 100%;
@@ -40,8 +40,26 @@
 
 }
 
+ /* ==================== */
+ /* = My Info Classes  = */
+ /* ==================== */
 
- 
+.my-name {
+        color: white;
+}
+
+.my-current-role {
+}
+
+.my-location {
+}
+
+.my-email {
+}
+
+.my-phone {
+}
+
  /* ================== */
 
 /* Left Nav Pills 
