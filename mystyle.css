@@ -12,6 +12,11 @@ hr {
     border-width: 1px;
 }
 
+abbr {
+    color: blue;
+    text-decoration: underline;
+}
+
 /* ================== */
 /* = Global Classes = */
 /* ================== */
