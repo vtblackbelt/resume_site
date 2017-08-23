@@ -1,0 +1,396 @@
+
+<!DOCTYPE html>
+<html>
+  <!-- Practice HTML & CSS by creating a portfolio site.  Since I'm learning, I have added more comments than normal to help reference what I'm doing. -->
+
+  <<head>
+    <!-- Set browser title -->
+      <title>Jerry Wagner | Process Automation Expert</title>
+
+    <!-- Set style override to Roboto font family -->
+      <style>
+          html,body,h1,h2,h3,h4,h5,h6 {font-family: "Roboto", sans-serif}
+      </style>
+
+    <!-- Set base URL -->
+<!--      <base href="https://vtblackbelt.github.io/resume_site/" target="_blank"> -->
+
+    <!-- Reference CSS libraries -->
+      <!-- W3 CSS -->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+      <!-- Google Font API -->
+        <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto'>
+
+      <!-- Font-Awesome Symbols -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <!-- Local CSS -->
+        <link rel="stylesheet" type="text/css" href="mystyle.css">
+
+    <!-- Reference metadata -->
+      <!-- Characterset -->
+        <meta charset="UTF-8">
+
+      <!-- SEO Metadata -->
+        <meta name="description" content="Profile for Jerry Wagner">
+
+        <meta name="keywords" content="">
+
+        <meta name="author" content="Jerry Wagner">
+
+      <!-- Responsive - Viewport scaling -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body class="w3-light-grey">
+
+    <!-- Global Header -->
+
+      <!-- Fix navigation bar to top of the screen -->
+      <div class="w3-top">
+
+        <!-- Global Navigation -->
+          <nav class="w3-bar w3-blue-grey w3-xlarge">
+            <span class="w3-bar-item w3-bar-item w3-left w3-large">Jerry Wagner</span>
+            <a href="#Contact" class="w3-bar-item w3-button w3-right w3-large">Contact</a>
+            <a href="#Projects" class="w3-bar-item w3-button w3-right w3-large">Projects</a>
+            <a href="#Resume" class="w3-bar-item w3-button w3-right w3-large">Resume</a>
+            <a href="#About" class="w3-bar-item w3-button w3-right w3-large">About Me</a>
+            <a href="#" class="w3-bar-item w3-button w3-right w3-large">Home</a>
+          </nav>
+      </div>
+
+
+      <div class="w3-content w3-margin-top w3-padding-16" style="max-width:100%;">
+        <div style="width:100%; height:900px; border:1px solid #000; text-align:center;">
+          Placeholder for hero image
+        </div>
+      </div>
+
+      <div class="w3-container w3-padding-16">
+        <hr>
+      </div>
+
+      <!-- Anchor tag to jump to about me section using navigation -->
+        <a class="w3-padding-32" name="About" title="About">
+        </a>
+      <div class="w3-container w3-padding-64">
+        
+    </div>
+
+      <div class="w3-container w3-padding-16">
+        <hr>
+      </div>
+
+    <!-- Anchor tag to jump to resume section using navigation -->
+      <a class="w3-padding-32" name="Resume" title="Resume">
+      </a>
+
+    <!-- Page Container -->
+      <div class="w3-content w3-margin-top w3-padding-32" style="max-width:1400px;">
+
+        <!-- The Grid -->
+          <div class="w3-row-padding">
+
+          <!-- Left Column -->
+            <div class="w3-third">
+              <div class="w3-white w3-text-grey w3-card-4">
+                <!-- Commenting out avatar photo
+                <div class="w3-display-container">
+                  <img src="/w3images/avatar_hat.jpg" style="width:100%" alt="Avatar">
+                  <div class="w3-display-bottomleft w3-container w3-text-black">
+                    <h2>Jane Doe</h2>
+                  </div>
+                </div> -->
+                <div class="w3-container">
+                  <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-blue-gray section-title"></i>At a Glance</h2>
+                  <p><i class="fa fa-briefcase fa-fw w3-margin-right w3-large w3-text-blue-gray my-current-role"></i>Product Manager</p>
+                  <p><i class="fa fa-home fa-fw w3-margin-right w3-large w3-text-blue-gray my-location"></i>Richmond, VA</p>
+                  <p><i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-blue-gray my-email"></i>vtblackbelt@gmail.com</p>
+                  <p><i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-blue-gray my-phone"></i>804.601.6952</p>
+                  <hr>
+                  <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-blue-gray section-title"></i>Qualifications</h2>
+                  <p class="w3-large"><b><i class="fa fa-asterisk fa-fw w3-margin-right w3-text-blue-gray"></i>Skills</b></p>
+                  <div class="w3-tooltip">
+                  <abbr title="Project Management Professional">PMP</abbr>
+                    <i class="fa fa-commenting-o w3-large"></i></p>
+                  <span class="w3-text w3-padding-small w3-round-xlarge w3-animate-opacity">Info about Skill #1</span>
+                  </div>
+                  <div class="w3-light-grey w3-round-xlarge w3-small">
+                    <div class="w3-container w3-center w3-round-xlarge w3-blue-gray" style="width:80%">
+                      <div class="w3-center w3-text-white">80%</div>
+                    </div>
+                  </div>
+                  <div class="w3-tooltip">
+                  <p>Skill #2
+                    <i class="fa fa-commenting-o w3-large"></i></p>
+                  <span class="w3-text w3-padding-small w3-round-xlarge w3-animate-opacity">Info about Skill #2</span>
+                  </div>
+                  <div class="w3-light-grey w3-round-xlarge w3-small">
+                    <div class="w3-container w3-center w3-round-xlarge w3-blue-gray" style="width:80%">
+                      <div class="w3-center w3-text-white">80%</div>
+                    </div>
+                  </div>
+                  <div class="w3-tooltip">
+                  <p>Skill #3
+                    <i class="fa fa-commenting-o w3-large"></i></p>
+                  <span class="w3-text w3-padding-small w3-round-xlarge w3-animate-opacity">Info about Skill #3</span>
+                  </div>
+                  <div class="w3-light-grey w3-round-xlarge w3-small">
+                    <div class="w3-container w3-center w3-round-xlarge w3-blue-gray" style="width:75%">75%</div>
+                  </div>
+                  <div class="w3-tooltip">
+                  <p>Skill #4
+                    <i class="fa fa-commenting-o w3-large"></i></p>
+                  <span class="w3-text w3-padding-small w3-round-xlarge w3-animate-opacity">Info about Skill #4</span>
+                  </div>
+                  <div class="w3-light-grey w3-round-xlarge w3-small">
+                    <div class="w3-container w3-center w3-round-xlarge w3-blue-gray" style="width:50%">50%</div>
+                  </div>
+                  <br>
+
+                  <p class="w3-large w3-text-theme"><b><i class="fa fa-globe fa-fw w3-margin-right w3-text-blue-gray section-title"></i>Languages</b></p>
+                  <p>Language #1</p>
+                  <div class="w3-light-grey w3-round-xlarge">
+                    <div class="w3-round-xlarge w3-blue-gray" style="height:24px;width:100%"></div>
+                  </div>
+                  <p>Language #2</p>
+                  <div class="w3-light-grey w3-round-xlarge">
+                    <div class="w3-round-xlarge w3-blue-gray" style="height:24px;width:55%"></div>
+                  </div>
+                  <p>Language #3</p>
+                  <div class="w3-light-grey w3-round-xlarge">
+                    <div class="w3-round-xlarge w3-blue-gray" style="height:24px;width:25%"></div>
+                  </div>
+                  <br>
+                </div>
+                <div class="w3-container w3-card-2 w3-white">
+                <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-certificate fa-fw w3-margin-right w3-xxlarge w3-text-blue-gray section-title"></i>Education</h2>
+                <div class="w3-container">
+                  <h5 class="w3-opacity"><b>School #1</b></h5>
+                  <h6 class="w3-text-blue-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Date</h6>
+                  <p>Degree</p>
+                  <hr>
+                </div>
+                <div class="w3-container">
+                  <h5 class="w3-opacity"><b>School #2</b></h5>
+                  <h6 class="w3-text-blue-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Date</h6>
+                  <p>Degree</p>
+                  <hr>
+                </div>
+                <div class="w3-container">
+                  <h5 class="w3-opacity"><b>School #3</b></h5>
+                  <h6 class="w3-text-blue-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Date</h6>
+                  <p>Degree</p><br>
+                </div>
+              </div>
+              </div><br>
+
+          <!-- End Left Column -->
+          </div>
+
+      <!-- Right Column -->
+      <div class="w3-twothird">
+
+        <div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+          <h2 class="w3-text-grey w3-padding-16"><i class="fa fa-suitcase fa-fw w3-margin-right w3-xxlarge w3-text-blue-gray"></i>Work Experience</h2>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Product Manager, Intelligent Automation | Capital One Financial</b></h5>
+            <h6 class="w3-text-blue-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jan 2015 - <span class="w3-tag w3-blue-gray w3-round">Current</span></h6>
+            <p>Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+            <div class="w3-container w3-card-2 w3-quarter" style="height:200px;">
+              <header class="w3-blue-gray">
+              <h5 class="w3-padding-small w3-center-align">
+                <i class="fa fa-line-chart w3-large w3-blue-gray w3-margin-right">&emsp;Result #1</i>
+              </h5>
+              </header>
+              <div class="w3-container">
+                <p>Lorem ipsum...</p>
+              </div>
+            </div>
+            <div class="w3-container w3-card-2 w3-quarter" style="height:200px;">
+              <header class="w3-blue-gray">
+              <h5 class="w3-padding-small w3-center-align">
+                <i class="fa fa-line-chart w3-large w3-blue-gray w3-margin-right">&emsp;Result #2</i>
+              </h5>
+              </header>
+              <div class="w3-container">
+                <p>Lorem ipsum...</p>
+              </div>
+            </div>
+            <div class="w3-container w3-card-2 w3-quarter" style="height:200px;">
+              <header class="w3-blue-gray">
+              <h5 class="w3-padding-small w3-center-align">
+                <i class="fa fa-line-chart w3-large w3-blue-gray w3-margin-right">&emsp;Result #3</i>
+              </h5>
+              </header>
+              <div class="w3-container">
+                <p>Lorem ipsum...</p>
+              </div>
+            </div>
+            <div class="w3-container w3-card-2 w3-quarter" style="height:200px;">
+              <header class="w3-blue-gray">
+              <h5 class="w3-padding-small w3-center-align">
+                <i class="fa fa-line-chart w3-large w3-blue-gray w3-margin-right">&emsp;Result #4</i>
+              </h5>
+              </header>
+              <div class="w3-container">
+                <p>Lorem ipsum...</p>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Job #2 | Company Name</b></h5>
+            <h6 class="w3-text-blue-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Mar 2012 - Dec 2014</h6>
+            <p>Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.</p>
+            <div class="w3-container w3-card-2 w3-quarter" style="height:200px;">
+              <header class="w3-blue-gray">
+              <h5 class="w3-padding-small w3-center-align">
+                <i class="fa fa-line-chart w3-large w3-blue-gray w3-margin-right">&emsp;Result #1</i>
+              </h5>
+              </header>
+              <div class="w3-container">
+                <p>Lorem ipsum...</p>
+              </div>
+            </div>
+            <div class="w3-container w3-card-2 w3-quarter" style="height:200px;">
+              <header class="w3-blue-gray">
+              <h5 class="w3-padding-small w3-center-align">
+                <i class="fa fa-line-chart w3-large w3-blue-gray w3-margin-right">&emsp;Result #2</i>
+              </h5>
+              </header>
+              <div class="w3-container">
+                <p>Lorem ipsum...</p>
+              </div>
+            </div>
+            <div class="w3-container w3-card-2 w3-quarter" style="height:200px;">
+              <header class="w3-blue-gray">
+              <h5 class="w3-padding-small w3-center-align">
+                <i class="fa fa-line-chart w3-large w3-blue-gray w3-margin-right">&emsp;Result #3</i>
+              </h5>
+              </header>
+              <div class="w3-container">
+                <p>Lorem ipsum...</p>
+              </div>
+            </div>
+            <div class="w3-container w3-card-2 w3-quarter" style="height:200px;">
+              <header class="w3-blue-gray">
+              <h5 class="w3-padding-small w3-center-align">
+                <i class="fa fa-line-chart w3-large w3-blue-gray w3-margin-right">&emsp;Result #4</i>
+              </h5>
+              </header>
+              <div class="w3-container">
+                <p>Lorem ipsum...</p>
+              </div>
+            </div>
+            <hr>
+          </div>
+          <div class="w3-container">
+            <h5 class="w3-opacity"><b>Job #3 | Company Name</b></h5>
+            <h6 class="w3-text-blue-gray"><i class="fa fa-calendar fa-fw w3-margin-right"></i>Jun 2010 - Mar 2012</h6>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. </p><br>
+            <div class="w3-container w3-card-2 w3-quarter" style="height:200px;">
+              <header class="w3-blue-gray">
+              <h5 class="w3-padding-small w3-center-align">
+                <i class="fa fa-line-chart w3-large w3-blue-gray w3-margin-right">&emsp;Result #1</i>
+              </h5>
+              </header>
+              <div class="w3-container">
+                <p>Lorem ipsum...</p>
+              </div>
+            </div>
+            <div class="w3-container w3-card-2 w3-quarter" style="height:200px;">
+              <header class="w3-blue-gray">
+              <h5 class="w3-padding-small w3-center-align">
+                <i class="fa fa-line-chart w3-large w3-blue-gray w3-margin-right">&emsp;Result #2</i>
+              </h5>
+              </header>
+              <div class="w3-container">
+                <p>Lorem ipsum...</p>
+              </div>
+            </div>
+            <div class="w3-container w3-card-2 w3-quarter" style="height:200px;">
+              <header class="w3-blue-gray">
+              <h5 class="w3-padding-small w3-center-align">
+                <i class="fa fa-line-chart w3-large w3-blue-gray w3-margin-right">&emsp;Result #3</i>
+              </h5>
+              </header>
+              <div class="w3-container">
+                <p>Lorem ipsum...</p>
+              </div>
+            </div>
+            <div class="w3-container w3-card-2 w3-quarter" style="height:200px;">
+              <header class="w3-blue-gray">
+              <h5 class="w3-padding-small w3-center-align">
+                <i class="fa fa-line-chart w3-large w3-blue-gray w3-margin-right">&emsp;Result #4</i>
+              </h5>
+              </header>
+              <div class="w3-container">
+                <p>Lorem ipsum...</p>
+              </div>
+            </div>
+          </div>
+          <br>
+        </div>
+
+
+
+      <!-- End Right Column -->
+      </div>
+
+    <!-- End Grid -->
+    </div>
+
+    <!-- End Page Container -->
+  </div>
+
+  <!-- Anchor tag to jump to portfolio section using navigation -->
+    <a class="w3-padding-32" name="Projects" title="Projects">
+    </a>
+
+  <div class="w3-content w3-margin-top w3-padding-32" style="max-width:100%;">
+    <div style="width:100%; height:900px; border:1px solid #000; text-align:center;">
+      Placeholder for Projects stuff
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-16">
+    <hr>
+  </div>
+
+  <!-- Anchor tag to jump to portfolio section using navigation -->
+    <a class="w3-padding-32" name="Contact" title="Contact">
+    </a>
+
+  <div class="w3-content w3-margin-top w3-padding-32" style="max-width:100%;">
+    <div style="width:100%; height:725px; border:1px solid #000; text-align:center;">
+      Placeholder for Contact stuff
+    </div>
+  </div>
+
+  <div class="w3-container w3-padding-16">
+    <hr>
+  </div>
+
+  <footer class="w3-container w3-blue-gray w3-center w3-margin-top w3-padding-large">
+    <p>Find me on social media.</p>
+    <a href="https://www.linkedin.com/in/vtblackbelt/" title="Visit my LinkedIn Profile">
+      <i class="fa fa-linkedin w3-hover-opacity"></i>
+    </a>
+    <a href="https://github.com/vtblackbelt/" title="Visit my GitHub Profile">
+      <i class="fa fa-github w3-hover-opacity"></i>
+    </a>
+    <!-- Commenting out social media that doesn't apply
+    <i class="fa fa-facebook-square w3-hover-opacity"></i>
+    <i class="fa fa-instagram w3-hover-opacity"></i>
+    <i class="fa fa-snapchat w3-hover-opacity"></i>
+    <i class="fa fa-pinterest-p w3-hover-opacity"></i>
+    <i class="fa fa-twitter w3-hover-opacity"></i>
+-->
+  </footer>
+
+  </body>
+</html>
